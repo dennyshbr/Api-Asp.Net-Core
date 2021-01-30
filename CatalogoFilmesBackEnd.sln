@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D73F0A9A-8FCE-4E7A-97DD-2B47D4B0BBF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{D73F0A9A-8FCE-4E7A-97DD-2B47D4B0BBF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco", "Banco\Banco.csproj", "{605ABF4D-5A0F-4719-9964-859704730A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco", "Banco\Banco.csproj", "{605ABF4D-5A0F-4719-9964-859704730A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{8787045A-23BD-4182-99EE-0360AC37ADD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Negocio", "Negocio\Negocio.csproj", "{8787045A-23BD-4182-99EE-0360AC37ADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{CCE42267-F08B-4FE0-85A2-6F371DB05FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8787045A-23BD-4182-99EE-0360AC37ADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8787045A-23BD-4182-99EE-0360AC37ADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8787045A-23BD-4182-99EE-0360AC37ADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE42267-F08B-4FE0-85A2-6F371DB05FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE42267-F08B-4FE0-85A2-6F371DB05FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE42267-F08B-4FE0-85A2-6F371DB05FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE42267-F08B-4FE0-85A2-6F371DB05FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
